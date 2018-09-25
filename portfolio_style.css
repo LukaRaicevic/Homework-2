@@ -29,14 +29,22 @@ body {
     }
 
     img.mala {
-        display: none;
+        display: inline-block;
+        width: 37.6%;
+        padding-top: 0;
+        padding-right: 5%;
     }
 
     img.velika {
-        position: fixed;
-        left: 0;
-        top: 11%;
-        width: 20%;
+        display: inline-block;
+        width: 40%;
+        padding-top: 0;
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+
+    div.all {
+        margin-top: 15%;
     }
 }
 
@@ -66,10 +74,11 @@ nav a:hover {
     color: black;
 }
 
+@media only screen and (max-width: 768px) {
 div.all {
-    margin-top: 26%;
+    margin-top: 25.2%;
 }
-
+}
 .velika {
     display: none;
 }
