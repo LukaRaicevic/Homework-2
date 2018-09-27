@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="portfolio_style.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+         crossorigin="anonymous">
+        <title>Portfolio</title>
+    </head>
+
+    <body>  
+        <div>
+            <nav class="menu">
+                <a href="#home"><b>Početna</b></a>
+                <a href="#omeni"><b>O meni</b></a>
+                <a href="#kontakt"><b>Kontakt</b></a>
+            </nav>
+        </div>
+        
+        <div class="all">
+        <div class="images">
+            <img src="portfolio_slika.jpg" alt="my_image" class="velika">
+            <img src="portfolio_slika_small.jpg" alt="my_image" class="mala">
+        </div>
+
+        <header id="home">
+            <h1>Luka Raičević</h1>
+            <p>Web dizajner i programer</p>
+            <button><i class="fas fa-download"></i> Preuzmi rezime</button>
+        </header>
+
+        <div class="main-content">
+        <div id="omeni">
+            <h2>O meni</h2>
+            <p>Moje ime je <strong>Luka Raičević</strong>.
+                Završio sam SEŠ "Mirko Vešović". Trenirao sam košarku 4 godine.
+                Studiram na Prirodno-matematičkom fakultetu u Podgorici, smjer Računarske nauke.<br>
+                Volim muziku i sport.</p>
+            <h3>Programski jezici</h3>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C</li>
+            </ul>
+        </div>
+
+        <div id="kontakt">
+            <h2>Kontakt</h2>
+            <p><i class="fas fa-location-arrow"></i> Mjesto: Podgorica, Crna Gora</p>
+            <p><i class="fas fa-phone"></i> Broj telefona: 067/305-580</p>
+            <p><i class="fas fa-envelope"></i> Email: luka.raicevic888@gmail.com</p>
+            <p>Pošalji email:</p>
+            <form method="GET">
+                <input type="text" name="yourName" placeholder="Ime"> <br><br>
+                <input type="email" name="yourEmail" placeholder="Email"> <br><br>
+                <input type="text" name="subject" placeholder="Tema"> <br><br>
+                <input type="text" name="message" placeholder="Poruka"> <br><br>
+                <button type="submit"><i class="fas fa-paper-plane"></i> POŠALjI</button>
+            </form>
+        </div>
+        </div>
+        <footer>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <p>Luka Raičević | Portfolio</p>
+        </footer>
+        </div>
+    </body>
+</html>
