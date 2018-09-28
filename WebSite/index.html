@@ -2,48 +2,59 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="portfolio_style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
          crossorigin="anonymous">
-        <title>Portfolio</title>
+        <title>Web Site</title>
     </head>
 
     <body>  
         <div>
             <nav class="menu">
                 <a href="#home"><b>Početna</b></a>
-                <a href="#omeni"><b>O meni</b></a>
+                <a href="#mi"><b>Ko smo mi?</b></a>
                 <a href="#kontakt"><b>Kontakt</b></a>
+                <a href=""><b>Portfolio</b></a>
             </nav>
         </div>
-        
-        <div class="all">
-            <div class="images">
-                <img src="portfolio_slika.jpg" alt="my_image" class="velika">
-                <img src="portfolio_slika_small.jpg" alt="my_image" class="mala">
-            </div>
 
+        <div class="all">
             <header id="home">
-                <h1>Luka Raičević</h1>
-                <p>Web dizajner i programer</p>
-                <button><i class="fas fa-download"></i> Preuzmi rezime</button>
+                <h1>Programiranje i Web dizajn</h1>
+                <div class="images1">
+                    <img src="java.jpg" alt="Java" class="java">
+                    <img src="c++.jpg" alt="C++" class="c++">
+                </div>
+
+                <div class="images2">
+                    <img src="c.jpg" alt="C" class="c">
+                    <img src="javascript.jpg" alt="JavaScript" class="js">
+                    <img src="html_css.jpg" alt="HTML&CSS" class="html">
+                </div>
             </header>
 
-            <div class="main-content">
-            <div id="omeni">
-                <h2>O meni</h2>
-                <p>Moje ime je <strong>Luka Raičević</strong>.
-                    Završio sam SEŠ "Mirko Vešović". Trenirao sam košarku 4 godine.
-                    Studiram na Prirodno-matematičkom fakultetu u Podgorici, smjer Računarske nauke.
-                    Volim muziku i sport.</p>
-                <h3>Programski jezici</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>C</li>
-                    <li>JavaScript</li>
-                </ul>
+            <div id="mi">
+                <h2>Ko smo mi?</h2>
+                <div class="mi-content">
+                    <div class="mi1">
+                        <img src="man.jpg" alt="John Doe">
+                        <p class="str"><strong>John Doe</strong></p> <br>
+                        <p>CEO</p> 
+                    </div>
+
+                    <div class="mi2">
+                        <img src="ja.jpg" alt="Luka Raičević">
+                        <p class="str"><strong>Luka Raičević</strong></p> <br>
+                        <p>Programer</p>
+                    </div>
+
+                    <div class="mi3">
+                        <img src="girl.jpg" alt="Jane Doe">
+                        <p class="str"><strong>Jane Doe</strong></p> <br>
+                        <p>Dizajner</p>
+                    </div>
+                </div>
             </div>
 
             <div id="kontakt">
@@ -60,15 +71,14 @@
                     <button type="submit"><i class="fas fa-paper-plane"></i> POŠALjI</button>
                 </form>
             </div>
-            </div>
+
             <footer>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-snapchat"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-linkedin-in"></i>
-                <p>Luka Raičević | Portfolio</p>
+                <p>Programiraje i Web dizajn | Web Site</p>
             </footer>
         </div>
     </body>
-</html>
